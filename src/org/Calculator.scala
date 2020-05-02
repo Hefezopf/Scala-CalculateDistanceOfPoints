@@ -1,8 +1,8 @@
 package org
 
+import org.Point;
+
 object Calculator extends App {
-  println("Hello")
-  /*
   println("Start!!!!!!")
     val p1 = Point(3, 4)
     val p2 = Point(4, 4)
@@ -13,6 +13,4 @@ object Calculator extends App {
     println("Distance:$minDistance")
     val minDistanceOfArray = determineMinimumOfArray(points)
     println("Distance of Array:$minDistanceOfArray")
-
-    */
 }

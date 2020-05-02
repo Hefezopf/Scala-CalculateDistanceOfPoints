@@ -1,0 +1,2 @@
+# ScalaCalcPoints
+ScalaCalcPoints

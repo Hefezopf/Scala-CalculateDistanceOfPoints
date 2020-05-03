@@ -1,16 +1,13 @@
 package org
 
-import org.Point;
-
 object Calculator extends App {
   println("Start!!!!!!")
-    val p1 = Point(3, 4)
-    val p2 = Point(4, 4)
-    val p3 = Point(5, 2)
-    val p4 = Point(6, 7)
-    val points = arrayOf(p1, p2, p3, p4)
-    val minDistance = determineMinimum(p1, p2)
-    println("Distance:$minDistance")
-    val minDistanceOfArray = determineMinimumOfArray(points)
-    println("Distance of Array:$minDistanceOfArray")
+
+  var points: Array[Point] = Array(new Point(1, 4), new Point(2, 3), new Point(3, 2), new Point(4, 1))
+
+  val minDistance = PointUtil.determineMinimum(points(0), points(1))
+  println("Distance: " + minDistance)
+
+  val minDistanceOfArray: Double = PointUtil.determineMinimumOfArray(points)
+  println("Distance of Array: " + minDistanceOfArray)
 }

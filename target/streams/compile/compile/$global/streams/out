@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mD:\playground\scala\ScalaCalcPoints\src\main\scala\de\hopf\Calculator.scala:6:14: illegal start of simple pattern[0m
+[0m[[0m[31merror[0m] [0m[0m  var poi nts: Array[Point] = Array(new Point(1, 4), new Point(2, 3), new Point(3, 2), new Point(4, 1))[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\playground\scala\ScalaCalcPoints\src\main\scala\de\hopf\Calculator.scala:8:1: '=' expected but ';' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  val minDistance = PointUtil.determineMinimum(points(0), points(1))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

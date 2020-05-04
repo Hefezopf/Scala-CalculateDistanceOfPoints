@@ -1,0 +1,23 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging D:\playground\scala\ScalaCalcPoints\target\scala-2.12\scalacalcpoints_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main\scala\de\hopf\PointUtil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\playground\scala\ScalaCalcPoints\target\scala-2.12\classes\main\scala\de\hopf\PointUtil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main\scala\de[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\playground\scala\ScalaCalcPoints\target\scala-2.12\classes\main\scala\de[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main\scala\de\hopf\Calculator$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\playground\scala\ScalaCalcPoints\target\scala-2.12\classes\main\scala\de\hopf\Calculator$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main\scala\de\hopf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\playground\scala\ScalaCalcPoints\target\scala-2.12\classes\main\scala\de\hopf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main\scala\de\hopf\PointUtil$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\playground\scala\ScalaCalcPoints\target\scala-2.12\classes\main\scala\de\hopf\PointUtil$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\playground\scala\ScalaCalcPoints\target\scala-2.12\classes\main[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main\scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\playground\scala\ScalaCalcPoints\target\scala-2.12\classes\main\scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main\scala\de\hopf\Point.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\playground\scala\ScalaCalcPoints\target\scala-2.12\classes\main\scala\de\hopf\Point.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main\scala\de\hopf\Calculator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\playground\scala\ScalaCalcPoints\target\scala-2.12\classes\main\scala\de\hopf\Calculator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main\scala\de\hopf\Calculator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\playground\scala\ScalaCalcPoints\target\scala-2.12\classes\main\scala\de\hopf\Calculator.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

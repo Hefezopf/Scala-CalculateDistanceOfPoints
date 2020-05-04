@@ -6,6 +6,8 @@ sbt clean compile
 
 sbt ~compile
 
+sbt test
+
 sbt testQuick
 
 sbt ~testQuick

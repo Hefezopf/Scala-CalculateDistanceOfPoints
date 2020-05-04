@@ -1,0 +1,5 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mPointUtilSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA PointUtil[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should TODO *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  1.4142135623730951 did not equal 1.3 (PointUtilSpec.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw NoSuchElementException if an empty stack is popped[0m[0m

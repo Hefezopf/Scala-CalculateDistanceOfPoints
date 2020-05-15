@@ -1,5 +1,5 @@
 #Successful Tests
-#Mon May 04 18:16:32 CEST 2020
-test.scala.de.hopf.PointSpec=1588608992098
-test.scala.de.hopf.StackSpec=1588608992100
-test.scala.de.hopf.PointUtilSpec=1588608992098
+#Fri May 15 18:14:23 CEST 2020
+test.scala.de.hopf.PointSpec=1589559263135
+test.scala.de.hopf.StackSpec=1589559263135
+test.scala.de.hopf.PointUtilSpec=1589559263135

@@ -1,33 +1,14 @@
-[0m[[0m[0mdebug[0m] [0m[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(D:\playground\scala\ScalaCalcPoints\src\test\scala\de\hopf\PointUtilSpec.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(test.scala.de.hopf.PointUtilSpec)[0m
-[0m[[0m[0mdebug[0m] [0m[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(test.scala.de.hopf.PointUtilSpec)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(D:\playground\scala\ScalaCalcPoints\src\test\scala\de\hopf\PointUtilSpec.scala)[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to D:\playground\scala\ScalaCalcPoints\target\scala-2.12\test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 3 Scala sources to C:\playground\Scala-CalculateDistanceOfPoints\target\scala-2.12\test-classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.3[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.3[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 72ef5307 for Scala compiler version 2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 72d9c0e3 for Scala compiler version 2.12.3[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	D:\Programme\Java\jdk1.8.0_77\jre\lib\resources.jar;D:\Programme\Java\jdk1.8.0_77\jre\lib\rt.jar;D:\Programme\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;D:\Programme\Java\jdk1.8.0_77\jre\lib\jsse.jar;D:\Programme\Java\jdk1.8.0_77\jre\lib\jce.jar;D:\Programme\Java\jdk1.8.0_77\jre\lib\charsets.jar;D:\Programme\Java\jdk1.8.0_77\jre\lib\jfr.jar;D:\Programme\Java\jdk1.8.0_77\jre\classes;C:\Users\info\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes;C:\Users\marku\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.3.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	D:\playground\scala\ScalaCalcPoints\target\scala-2.12\test-classes;D:\playground\scala\ScalaCalcPoints\target\scala-2.12\classes;C:\Users\info\.ivy2\cache\org.scalatest\scalatest_2.12\bundles\scalatest_2.12-3.1.1.jar;C:\Users\info\.ivy2\cache\org.scalactic\scalactic_2.12\bundles\scalactic_2.12-3.1.1.jar;C:\Users\info\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.3.jar;C:\Users\info\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.2.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.7653752 s[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\playground\Scala-CalculateDistanceOfPoints\target\scala-2.12\test-classes;C:\playground\Scala-CalculateDistanceOfPoints\target\scala-2.12\classes;C:\Users\marku\.ivy2\cache\org.scalatest\scalatest_2.12\bundles\scalatest_2.12-3.1.1.jar;C:\Users\marku\.ivy2\cache\org.scalactic\scalactic_2.12\bundles\scalactic_2.12-3.1.1.jar;C:\Users\marku\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.3.jar;C:\Users\marku\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.2.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 3.4061394 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
-[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m

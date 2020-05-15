@@ -12,9 +12,6 @@ object PointUtil {
   def determineMinimumOfArray(points: Array[Point]): Double = {
     if (points.length == 0) { "too less points" }
     var min = Double.MaxValue
-    println("points.length: " + points.length)
-    println("points(0).x: " + points(0).x)
-    println("points(0).y: " + points(0).y)
 
     for (i <- 0 to points.length - 1) {
       min = calculate(points, points(i), min, i)

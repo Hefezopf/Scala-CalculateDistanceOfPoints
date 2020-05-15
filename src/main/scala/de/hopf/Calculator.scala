@@ -1,13 +1,12 @@
 package main.scala.de.hopf
 
 object Calculator extends App {
-  println("Start!!!!!!")
+  println("Start App...!!!")
 
-  var points: Array[Point] = Array(new Point(1, 4), new Point(2, 3), new Point(3, 2), new Point(4, 1))
+  var points: Array[Point] = Array(new Point(1, 1), new Point(1, 3), new Point(4, 4), new Point(6, 1))
 
-  val minDistance = PointUtil.determineMinimum(points(0), points(1))
-  println("Distance: " + minDistance)
+  println("Distance: " + PointUtil.determineMinimum(points(0), points(2)))
 
   val minDistanceOfArray: Double = PointUtil.determineMinimumOfArray(points)
-  println("Distance of Array: " + minDistanceOfArray)
+  println("Minimum distance of all points = " + minDistanceOfArray)
 }

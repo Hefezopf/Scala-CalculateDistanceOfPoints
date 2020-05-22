@@ -13,5 +13,18 @@ class PointUtilSpec extends FlatSpec {
     
     assert(pointUtil == 1.4142135623730951)
   }
+  
+  "A PointUtil" should "determineMinimumOfArray" in {
+
+    var points:Array[Point]=new Array[Point](4)
+    points(0)=new Point(1,1)
+    points(1)=new Point(1,3)
+    points(2)=new Point(4,4)
+    points(3)=new Point(6,1)
+    
+    val pointUtil = PointUtil.determineMinimumOfArray(points)
+    
+    assert(pointUtil == 2.0)
+  }
 
 }

@@ -26,3 +26,12 @@ Output:
 Start App...
 
 Minimum distance of all points = 2.0
+
+
+## Travis
+
+Each commit to GitHub will result in a automated online travis CI/CD build.
+
+https://travis-ci.com/github/Hefezopf/Scala-CalculateDistanceOfPoints
+
+

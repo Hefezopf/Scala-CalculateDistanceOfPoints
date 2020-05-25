@@ -8,7 +8,7 @@ import main.scala.de.hopf.PointUtil
 class PointUtilSpec extends FlatSpec {
 
   "A PointUtil" should "parseAllCoords" in {
-    var coords: Array[String] = Array("(4,3)", "(5,2)", "(1,1)", "(1,2)")
+    var coords: Array[String] = Array("(1,3)", "(5,2)", "(1,1)", "(1,2)")
 
     var res: Array[Point] = PointUtil.parseAllCoords(coords)
 

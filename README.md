@@ -11,6 +11,8 @@ Minimum distance of all points = 2.0
 
 ## Build
 
+As IDE use Visual Studio Code or Eclipse Scala
+
 **sbt clean compile**
 
 **sbt ~compile**
@@ -45,7 +47,6 @@ Output:
 >Minimum distance of all points = 1.0
 
 Hint: Only use single digit numbers as point coordinates like (4,3)!
-
 
 
 ## Travis

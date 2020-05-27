@@ -9,15 +9,13 @@ import scala.collection._
 object PointUtil {
 
   def parseAllCoords(allCoords: Array[String]): Array[Point] = {
-    var points: Array[Point] = Array()
-    val pointsList = mutable.MutableList[Point]()
+    var points = new Array[Point](allCoords.length)
 
     for (i <- 0 to allCoords.length - 1) {
       var xy: Array[Integer] = parseToCoord(allCoords(i))
       var p = new Point(xy(0), xy(1))
-      pointsList += p;
+      points(i) = p
     }
-    points = pointsList.toArray
 
     return points
   }

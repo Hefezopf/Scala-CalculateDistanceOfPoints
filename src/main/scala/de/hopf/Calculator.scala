@@ -4,7 +4,6 @@ object Calculator extends App {
   println("Start App...!!!")
 
   var points: Array[Point] = Array()
-  //var args1: Array[String] = Array("(4,3)", "(5,2)", "(1,1)", "(1,2)")
   if (args.length > 0) {
     points = PointUtil.parseAllCoords(args)
   } else {

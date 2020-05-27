@@ -5,6 +5,7 @@ import scala.math.pow;
 import scala.util.matching.Regex
 import scala.collection._
 
+// object in Scala is like defining a class in Java that has only static methods
 object PointUtil {
 
   def parseAllCoords(allCoords: Array[String]): Array[Point] = {

@@ -33,6 +33,7 @@ Output:
 >Start App...
 >
 >Minimum distance of all points = 2.0
+>
 >Maximum distance of all points = 5.385164807134504
 
 or run with params
@@ -46,6 +47,7 @@ Output:
 >Start App...
 >
 >Minimum distance of all points = 1.0
+>
 >Maximum distance of all points = 4.123105625617661
 
 Hint: Only use single digit numbers as point coordinates like (4,3)!

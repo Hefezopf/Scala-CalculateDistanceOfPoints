@@ -31,8 +31,22 @@ object PointUtil {
     return res
   }
 
-  def determineMinimum(p1: Point, p2: Point): Double = {
+  def determineDistance(p1: Point, p2: Point): Double = {
     sqrt(pow(p2.x - p1.x, 2) + pow(p2.y - p1.y, 2))
+  }
+
+  def determineMaximumOfArray(points: Array[Point]): Double = {
+    var max = Double.MinValue
+
+    if (points.length == 0) {
+      "too less points"
+    }
+
+    for (i <- 0 to points.length - 1) {
+      max = calculateMaximum(points, points(i), max, i)
+    }
+
+    return max
   }
 
   def determineMinimumOfArray(points: Array[Point]): Double = {
@@ -43,17 +57,30 @@ object PointUtil {
     }
 
     for (i <- 0 to points.length - 1) {
-      min = calculate(points, points(i), min, i)
+      min = calculateMinimum(points, points(i), min, i)
     }
 
     return min
   }
 
-  def calculate(points: Array[Point], startPoint: Point, minimum: Double, startVal: Int): Double = {
+  def calculateMaximum(points: Array[Point], startPoint: Point, maximum: Double, startVal: Int): Double = {
+    var max: Double = maximum
+
+    for (i <- startVal + 1 until points.size) {
+      val maxTemp = determineDistance(startPoint, points(i))
+      if (maxTemp > max) {
+        max = maxTemp;
+      }
+    }
+
+    return max
+  }
+
+  def calculateMinimum(points: Array[Point], startPoint: Point, minimum: Double, startVal: Int): Double = {
     var min: Double = minimum
 
     for (i <- startVal + 1 until points.size) {
-      val minTemp = determineMinimum(startPoint, points(i))
+      val minTemp = determineDistance(startPoint, points(i))
       if (minTemp < min) {
         min = minTemp;
       }

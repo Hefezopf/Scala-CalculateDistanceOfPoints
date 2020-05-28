@@ -12,4 +12,6 @@ object Calculator extends App {
 
   val minDistanceOfArray: Double = PointUtil.determineMinimumOfArray(points)
   println("Minimum distance of all points = " + minDistanceOfArray)
+  val maxDistanceOfArray: Double = PointUtil.determineMaximumOfArray(points)
+  println("Maximum distance of all points = " + maxDistanceOfArray)
 }

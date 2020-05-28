@@ -43,10 +43,50 @@ class PointUtilSpec extends FlatSpec {
     assert(3 == res(1))
   }
 
-  "A PointUtil" should "determineMinimum" in {
-    val pointUtil = PointUtil.determineMinimum(new Point(1, 4), new Point(2, 3))
+  "A PointUtil" should "determineMinimum1" in {
+    val pointUtil = PointUtil.determineDistance(new Point(1, 4), new Point(2, 3))
 
     assert(pointUtil == 1.4142135623730951)
+  }
+
+  "A PointUtil" should "determineMinimum2" in {
+    val pointUtil = PointUtil.determineDistance(new Point(1, 1), new Point(3, 1))
+
+    assert(pointUtil == 2.0)
+  }
+
+  "A PointUtil" should "determineMaximumOfArray1" in {
+    var points: Array[Point] = new Array[Point](3)
+    points(0) = new Point(1, 1)
+    points(1) = new Point(1, 3)
+    points(2) = new Point(4, 4)
+
+    val pointUtil = PointUtil.determineMaximumOfArray(points)
+
+    assert(pointUtil == 4.242640687119285)
+  }
+
+  "A PointUtil" should "determineMaximumOfArray2" in {
+    var points: Array[Point] = new Array[Point](4)
+    points(0) = new Point(1, 1)
+    points(1) = new Point(1, 3)
+    points(2) = new Point(4, 4)
+    points(3) = new Point(6, 1)
+
+    val pointUtil = PointUtil.determineMaximumOfArray(points)
+
+    assert(pointUtil == 5.385164807134504)
+  }
+
+  "A PointUtil" should "determineMaximumOfArray3" in {
+    var points: Array[Point] = new Array[Point](3)
+    points(0) = new Point(1, 1)
+    points(1) = new Point(4, 4)
+    points(2) = new Point(6, 1)
+
+    val pointUtil = PointUtil.determineMaximumOfArray(points)
+
+    assert(pointUtil == 5.0)
   }
 
   "A PointUtil" should "determineMinimumOfArray1" in {

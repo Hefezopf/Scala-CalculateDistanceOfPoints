@@ -7,6 +7,11 @@ import main.scala.de.hopf.PointUtil
 
 class PointUtilSpec extends FlatSpec {
 
+  var pA = new Point(1, 1)
+  var pB = new Point(1, 3)
+  var pC = new Point(4, 4)
+  var pD = new Point(6, 1)
+
   "A PointUtil" should "parseAllCoords" in {
     var coords: Array[String] = Array("(4,3)", "(5,2)", "(1,1)", "(1,2)")
 
@@ -44,22 +49,24 @@ class PointUtilSpec extends FlatSpec {
   }
 
   "A PointUtil" should "determineMinimum1" in {
-    val pointUtil = PointUtil.determineDistance(new Point(1, 4), new Point(2, 3))
+    val pointUtil =
+      PointUtil.determineDistance(new Point(1, 4), new Point(2, 3))
 
     assert(pointUtil == 1.4142135623730951)
   }
 
   "A PointUtil" should "determineMinimum2" in {
-    val pointUtil = PointUtil.determineDistance(new Point(1, 1), new Point(3, 1))
+    val pointUtil =
+      PointUtil.determineDistance(new Point(1, 1), new Point(3, 1))
 
     assert(pointUtil == 2.0)
   }
 
   "A PointUtil" should "determineMaximumOfArray1" in {
     var points: Array[Point] = new Array[Point](3)
-    points(0) = new Point(1, 1)
-    points(1) = new Point(1, 3)
-    points(2) = new Point(4, 4)
+    points(0) = pA
+    points(1) = pB
+    points(2) = pC
 
     val pointUtil = PointUtil.determineMaximumOfArray(points)
 
@@ -68,10 +75,10 @@ class PointUtilSpec extends FlatSpec {
 
   "A PointUtil" should "determineMaximumOfArray2" in {
     var points: Array[Point] = new Array[Point](4)
-    points(0) = new Point(1, 1)
-    points(1) = new Point(1, 3)
-    points(2) = new Point(4, 4)
-    points(3) = new Point(6, 1)
+    points(0) = pA
+    points(1) = pB
+    points(2) = pC
+    points(3) = pD
 
     val pointUtil = PointUtil.determineMaximumOfArray(points)
 
@@ -80,9 +87,9 @@ class PointUtilSpec extends FlatSpec {
 
   "A PointUtil" should "determineMaximumOfArray3" in {
     var points: Array[Point] = new Array[Point](3)
-    points(0) = new Point(1, 1)
-    points(1) = new Point(4, 4)
-    points(2) = new Point(6, 1)
+    points(0) = pA
+    points(1) = pC
+    points(2) = pD
 
     val pointUtil = PointUtil.determineMaximumOfArray(points)
 
@@ -91,9 +98,9 @@ class PointUtilSpec extends FlatSpec {
 
   "A PointUtil" should "determineMinimumOfArray1" in {
     var points: Array[Point] = new Array[Point](3)
-    points(0) = new Point(1, 1)
-    points(1) = new Point(4, 4)
-    points(2) = new Point(6, 1)
+    points(0) = pA
+    points(1) = pC
+    points(2) = pD    
 
     val pointUtil = PointUtil.determineMinimumOfArray(points)
 
@@ -102,14 +109,13 @@ class PointUtilSpec extends FlatSpec {
 
   "A PointUtil" should "determineMinimumOfArray2" in {
     var points: Array[Point] = new Array[Point](4)
-    points(0) = new Point(1, 1)
-    points(1) = new Point(1, 3)
-    points(2) = new Point(4, 4)
-    points(3) = new Point(6, 1)
+    points(0) = pA
+    points(1) = pB
+    points(2) = pC
+    points(3) = pD    
 
     val pointUtil = PointUtil.determineMinimumOfArray(points)
 
     assert(pointUtil == 2.0)
   }
-
 }

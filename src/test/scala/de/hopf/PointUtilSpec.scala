@@ -48,18 +48,18 @@ class PointUtilSpec extends FlatSpec {
     assert(3 == res(1))
   }
 
-  "A PointUtil" should "determineMinimum1" in {
-    val pointUtil =
+  "A PointUtil" should "determineDistance1" in {
+    val distance =
       PointUtil.determineDistance(new Point(1, 4), new Point(2, 3))
 
-    assert(pointUtil == 1.4142135623730951)
+    assert(distance == 1.4142135623730951)
   }
 
-  "A PointUtil" should "determineMinimum2" in {
-    val pointUtil =
+  "A PointUtil" should "determineDistance2" in {
+    val distance =
       PointUtil.determineDistance(new Point(1, 1), new Point(3, 1))
 
-    assert(pointUtil == 2.0)
+    assert(distance == 2.0)
   }
 
   "A PointUtil" should "determineMaximumOfArray1" in {

@@ -4,6 +4,8 @@ import scala.math.sqrt;
 import scala.math.pow;
 import scala.util.matching.Regex
 import scala.collection._
+import java.text.NumberFormat
+import java.{util => ju}
 
 // object in Scala is like defining a class in Java that has only static methods
 object PointUtil {
@@ -46,7 +48,7 @@ object PointUtil {
       max = calculateMaximum(points, points(i), max, i)
     }
 
-    return max
+    return limitValue(max, 2)
   }
 
   def determineMinimumOfArray(points: Array[Point]): Double = {
@@ -60,8 +62,18 @@ object PointUtil {
       min = calculateMinimum(points, points(i), min, i)
     }
 
-    return min
+    return limitValue(min, 2)
   }
+
+   def limitValue(value: Double, digits: Int): Double = {
+        var nf = NumberFormat.getInstance(ju.Locale.ENGLISH)
+        nf.setMinimumFractionDigits(digits)
+        nf.setMaximumFractionDigits(digits)
+        var s = nf.format(value)
+        var erg = s.toDouble
+
+        return erg
+    }
 
   def calculateMaximum(points: Array[Point], startPoint: Point, maximum: Double, startVal: Int): Double = {
     var max: Double = maximum

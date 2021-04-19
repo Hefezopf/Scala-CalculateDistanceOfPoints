@@ -73,3 +73,8 @@ https://github.com/Hefezopf/Scala-CalculateDistanceOfPoints/actions
 Travis CI/CD build:
 
 https://travis-ci.com/github/Hefezopf/Scala-CalculateDistanceOfPoints
+
+
+# Honor Open Source
+
+[Donate?](https://www.paypal.com/donate/?hosted_button_id=G2CERK22Q4QP8 "Donate?")
